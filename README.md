@@ -19,16 +19,16 @@ yarn add function-ts
 ```js
 import { addArgs, addArray, addObj } from 'function-ts'
 
-# returns 'summetion of multiple numbers'
+# returns 'summation of multiple numbers'
 console.log(addArgs(3, 5, 4, ...)) // 12
 
-# returns 'summetion of array numbers with currency'
+# returns 'summation of array numbers with currency'
 console.log(addArray([2, 3], "USD")); // $5.00
 
-# returns 'summetion of array numbers'
+# returns 'summation of array numbers'
 console.log(addArray([2, 3])); // 5
 
-# returns 'summetion of object numbers'
+# returns 'summation of object numbers'
 console.log(addObj({ a: 1, b: 2, c: 3 })); //6
 
 ```
